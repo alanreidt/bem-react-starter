@@ -5,6 +5,7 @@ import { Button as ButtonPresenter } from './components/Button/Button';
 import { withButtonTypeLink } from './components/Button/_type/Button_type_link';
 import { withButtonThemeAction } from './components/Button/_theme/Button_theme_action';
 // import { withButtonThemeDefault } from './components/Button/_theme/Button_theme_default';
+import { ButtonIcon } from './components/Button/Icon/ButtonIcon';
 
 import logo from './logo.svg';
 import './App.css';
@@ -34,6 +35,8 @@ const App: FC = () => (
       <div>
         <Button>I'm basic</Button>
         {/* Renders into HTML as: <button class="Button">I'm Basic</button> */}
+
+        <Button>I'm basic with icon <ButtonIcon/></Button>
 
         <Button type="link" href="#stub">I'm type link</Button>
         {/* Renders into HTML as: <a href="#stub" class="Button Button_type_link">I'm type link</a> */}
