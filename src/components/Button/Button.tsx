@@ -8,7 +8,7 @@ export const Button: FC<IButtonProps> = ({
   as: Component = 'button',
   ...props
 }) => (
-  <Component {...props} className={cnButton({}, [className])}>
+  <Component {...props} className={ cnButton({}, [className]) }>
     {children}
   </Component>
 )
