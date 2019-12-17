@@ -1,8 +1,8 @@
 import React, { FC } from 'react'
 
-import { ReactComponent as Icon } from '../../../logo.svg'
+import { Icon } from '../../Icon/Icon'
 import { cnButton } from '../index'
 
 export const ButtonIcon: FC = () => (
-  <Icon width="30" className={ cnButton("Icon") } />
+  <Icon className={ cnButton("Icon") } />
 )
