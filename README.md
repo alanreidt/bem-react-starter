@@ -3,7 +3,7 @@ Attend to create starter template for projects with bem-react, react and plop cl
 
 Cancelled for now.
 
-## Create-react info
+## Create React App info
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
