@@ -1,3 +1,10 @@
+# bem-react-starter
+Attend to create starter template for projects with bem-react, react and plop cli in the core.
+
+Cancelled for now.
+
+## Create-react info
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
