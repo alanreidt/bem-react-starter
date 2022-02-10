@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "fibers": "^4.0.2",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "plop": "^2.5.3",
     "sass": "^1.23.7"
   }
